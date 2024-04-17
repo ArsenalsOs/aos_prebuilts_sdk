@@ -1,0 +1,112 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.concurrent",
+    "module": "concurrent-futures",
+    "version": "1.2.0-alpha01",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "com.google.guava",
+          "module": "listenablefuture",
+          "version": {
+            "requires": "1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "concurrent-futures-1.2.0-alpha01.jar",
+          "url": "concurrent-futures-1.2.0-alpha01.jar",
+          "size": 26006,
+          "sha512": "1e748ab043eea7d7c6f8829d248cdfbe27a73b3c072531f8ec4cf56628e34452c8b5d290714718bc32ef3cc3d2ecad2553f3337d74dfd41763ae822d5972eeee",
+          "sha256": "c28c2a371aacb720311810b1e97c626c263cfeb45ba8a31891544a06535b1c56",
+          "sha1": "8c0c5c29984b83f1a78af43e73424a62f2d263c6",
+          "md5": "95000a226bc34950b4108ae5d642bf96"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "com.google.guava",
+          "module": "listenablefuture",
+          "version": {
+            "requires": "1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "concurrent-futures-1.2.0-alpha01.jar",
+          "url": "concurrent-futures-1.2.0-alpha01.jar",
+          "size": 26006,
+          "sha512": "1e748ab043eea7d7c6f8829d248cdfbe27a73b3c072531f8ec4cf56628e34452c8b5d290714718bc32ef3cc3d2ecad2553f3337d74dfd41763ae822d5972eeee",
+          "sha256": "c28c2a371aacb720311810b1e97c626c263cfeb45ba8a31891544a06535b1c56",
+          "sha1": "8c0c5c29984b83f1a78af43e73424a62f2d263c6",
+          "md5": "95000a226bc34950b4108ae5d642bf96"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "concurrent-futures-1.2.0-alpha01-sources.jar",
+          "url": "concurrent-futures-1.2.0-alpha01-sources.jar",
+          "size": 19780,
+          "sha512": "492f42e6dc41ca61c137ee4f9ae76b33df345195dd06580f16ecf7ee6fdae48eddae5951a7c118f195d5c5225e3b7ce343863aa725f1654a112635b7754c4520",
+          "sha256": "402269ddb96334989a125f65dee02093f1f00f13d2a100a960a0284c2e3abfab",
+          "sha1": "0838a735ba00f1e05172a1d8eaf421c93b32c6e8",
+          "md5": "c8adcc936041b6f2a4df749cc34a1892"
+        }
+      ]
+    }
+  ]
+}
